@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 30.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+
+</head>
+<body style="background: lightcyan">
+<head>
+  <style>
+    h1{
+	    text-align: center;
+	   }
+  </style>
+</head>
+
+
+
+<h1> jungle booke</h1>
+
+<h2><p><button class="button"><a style="color:lightcyan" href="ergasia.html">Αρχικη</a></button></p>
+<p><button class="button"><a style="color:lightcyan" href="project.html">Project</a></button></p>
+<p><button class="button"><a style="color:lightcyan" href="epikinonia.html">επικοινωνια</a></button></p>
+
+
+
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="sc2.png" alt="aggelos" style="width:100%">
+      <div class="container">
+        <h2>Άγγελος Τρόκα</h2>
+        <p class="title">Φοιτήτης στο ΤΕΙ Καβάλας</p>
+        <P>AEM 4219</P>
+		<a href="viografiko2.html">Βιογραφικο</a>
+		<p>Eιμαι φητητης με εξειδικευση  στον προγραμματισμο και ταυτόχρονα εξασκω το αντικειμενο μου στην εταιρεια </p>
+		<body>
+		<p>Καταγωγη:
+		<a href="https://el.wikipedia.org/wiki/Σάμος">Σαμος</a>
+        </body>
+		<p>roda8102@hotmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="sc1.png" alt="giannis" style="width:100%">
+      <div class="container">
+        <h2>Γιάννης Φιλίππου</h2>
+        <p class="title">φοιτήτης στο ΤΕΙ Καβάλας</p>
+        <P>AEM 4106</P>
+		<a href="viografiko1.html">Βιογραφικο</a>
+        <p> Eιμαι φητητης στο ΤΕΙ καβάλας και ξερωντας τα βασικα στοιχεια του προγραμματισμου και ταυτόχρονα εξασκω το ενδιαφερον μου στην εταιρεια  </p>
+		<body>
+		<p>Καταγωγη:
+		<a href="https://el.wikipedia.org/wiki/Θεσσαλονίκη">Θεσσααλονικη</a>
+        </body>
+		<p>iofilie@teiemt.gr</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
